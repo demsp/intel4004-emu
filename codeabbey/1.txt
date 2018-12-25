@@ -1,0 +1,14 @@
+https://github.com/CodeAbbey/intel4004-emu/wiki/Arithmetic-instructions
+20 59 22 38 F1 A1 83 B1 A0 82 B0
+
+fim r0 $59
+fim r2 $38
+
+clc
+ld r1
+add r3
+xch r1
+
+ld r0
+add r2
+xch r0
